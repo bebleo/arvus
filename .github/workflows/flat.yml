@@ -1,0 +1,23 @@
+name: Flat
+on:
+  push:
+    paths:
+      - .github/workflows/flat.yml
+  workflow_dispatch: null
+  schedule:
+    - cron: 0 9 * * *
+jobs:
+  scheduled:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v2
+      - name: Setup deno
+        uses: denoland/setup-deno@main
+        with:
+          deno-version: v1.x
+      - name: Fetch data
+        uses: githubocto/flat@v2
+        with:
+          http_url: https://www150.statcan.gc.ca/t1/wds/rest/getFullTableDownloadCSV/18100061/en
+          downloaded_filename: ./data/cspi-csv-download-link.json
