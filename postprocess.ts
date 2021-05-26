@@ -11,7 +11,9 @@ if (json.status == "SUCCESS") {
         dir: "./data"
     };
     const zip = await download(json.object, destination);
-    // const unzip = await unZipFromFile(zip.fullPath, "./data");
+    const unzip = await unZipFromFile(zip.fullPath, "./data");
+    const output = unzip ? "Table downloaded and unzipped!" : "Something went wrong!"
+    console.log(output)
 
 } else {
     Error("Something wrong with download");
