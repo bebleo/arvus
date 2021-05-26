@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - .github/workflows/flat.yml
+      - ./postprocess.ts
   workflow_dispatch: null
   schedule:
     - cron: 0 9 * * *
@@ -21,3 +22,4 @@ jobs:
         with:
           http_url: https://www150.statcan.gc.ca/t1/wds/rest/getFullTableDownloadCSV/18100061/en
           downloaded_filename: ./data/cspi-csv-download-link.json
+          postprocess: ./postprocess.ts
