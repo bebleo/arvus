@@ -1,4 +1,4 @@
-import { readCSV, readJSON, unZipFromFile, writeJSON } from 'https://deno.land/x/flat@0.0.10/mod.ts';
+import { readCSV, readJSON, unZipFromFile, writeJSON } from 'https://deno.land/x/flat@0.0.11/mod.ts';
 import { download, Destination } from "https://deno.land/x/download/mod.ts";
 
 const DATA_DIR = "./data"
