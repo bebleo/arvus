@@ -1,0 +1,34 @@
+[
+  {
+    "id": "0bc99db3-d31e-448b-8f82-4a5484d7434a",
+    "title": "Canadian Commercial Software Price Index",
+    "description": "Price paid by Canadian businesses for commercial software.",
+    "productId": 18400016,
+    "source": "Statistics Canada",
+    "license": {
+      "version": "2.0",
+      "title": "Open Data License - Canada",
+      "url": "https://licenses.licenses/"
+    },
+    "source_data_url": "https://sourcesss.sdasd",
+    "source_description_url": "https://asourcedata.data",
+    "last_updated": "2021-04-28T08:30",
+    "keywords": "software, productivity, expense"
+  },
+  {
+    "id": "264e8e4f-fd71-4f2c-8865-6c92fa50b7b1",
+    "title": "Canadian Consumer Price Index",
+    "description": "Price paid by Canadian individuals for various categories of consumer goods and services.",
+    "productId": 18400017,
+    "source": "Statistics Canada",
+    "license": {
+      "title": "Open Data License - Canada",
+      "version": "2.0",
+      "url": "https://licenses.licenses/"
+    },
+    "source_data_url": "https://sourcesss.sdasd",
+    "source_description_url": "https://asourcedata.data",
+    "last_updated": "2021-05-10T08:30",
+    "keywords": "consumer, price, common, inflation, deflation, food, cost, living"
+  }
+]
