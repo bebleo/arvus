@@ -1,0 +1,7 @@
+
+/* Set a height for the chart loading container so
+   that it doesn't jump arond while loading data.*/
+.loading-container div {
+    height: 200px;
+    width: 99%;
+}
