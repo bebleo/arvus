@@ -1,5 +1,5 @@
 import { readCSV, readJSON, unZipFromFile, writeJSON } from 'https://deno.land/x/flat@0.0.11/mod.ts';
-import { download, Destination } from "https://deno.land/x/download/mod.ts";
+import { download, Destination } from "https://deno.land/x/download@v1.0.1/mod.ts";
 
 const DATA_DIR = "./data"
 const filename = Deno.args[0];
